@@ -1,58 +1,148 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: auto;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
+
 body {
-  font-family: Roboto;
   width: 960px;
+  position: fixed;
 }
 
-.img-1 {
-  position: absolute;
-  width: 1280px;
-  height: 574px;
-  background-color: rgba(0, 0, 0, 0.15);
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 960px;
+  height: 60px;
 }
 
-.h1-1 {
-  position: absolute;
-  width: 577px;
-  height: 46.11px;
-  font-family: Roboto;
-  font-style: normal;
+.nav-link {
+  width: 960px;
+  height: 50px;
+  background-color: #a3ade6;
+  display: flex;
+}
+
+.b1 {
+  margin: 14px 0 0 20px;
+  display: inline-flex;
+  align-self: flex-start;
+  cursor: pointer;
+  padding: 1px;
+  color: white;
+  background-color: #a3ade6;
+  border: 0;
   font-weight: bold;
+}
+
+.b2,
+.b3 {
+  cursor: pointer;
+  color: white;
+  padding: 1px;
+  background-color: #a3ade6;
+  border: 0;
+  font-weight: bold;
+}
+
+.b1-1,
+.b1-2 {
+  text-decoration: none;
+  background-color: #a3ade6;
+  color: white;
+  background-color: #a3ade6;
+}
+
+.b1-2 {
+  cursor: not-allowed;
+}
+
+.b2 {
+  display: flex;
+  margin: 14px 0 12px 650px;
+  float: right;
+}
+
+.b3 {
+  margin: 14px 0 12px 20px;
+}
+
+.b4 {
+  margin: 14px 20px 12px 20px;
+  color: white;
+  padding: 1px;
+  background-color: #a3ade6;
+  cursor: not-allowed;
+  opacity: 0.6;
+  border: 0;
+  font-weight: bold;
+}
+
+.main1 {
+  position: static;
+  height: 960px;
+  width: 100%;
+  background-image: url("pictures/jakub-rozalski-usonia-harvest-042021small.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  display: flex;
+  text-align: left;
+  align-self: flex-start;
+  padding: 0 0 0 35px;
+}
+
+.item-1 {
   font-size: 36px;
-  line-height: 42px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
+  line-height: 50px;
+  width: 550px;
+  font-weight: bold;
+  color: black;
 }
 
-.h2-1 {
-  position: absolute;
-  width: 276px;
-  height: 23.13px;
-  font-family: Roboto;
-  font-style: normal;
+.item-2 {
+  font-size: 28px;
+  line-height: 50px;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
+  color: black;
+  text-align: left;
 }
 
-.h-item1 {
-  position: absolute;
-  width: 88px;
-  height: 29px;
-  font-family: Roboto;
-  font-style: normal;
+.item-3 {
+  border: 2px white;
+  text-align: left;
+  width: 120px;
+  height: 25px;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
+  background-color: transparent;
+}
+
+.b1-3 {
+  text-decoration: none;
+  text-align: center;
+  padding: 3px;
+  width: 100%;
+  height: 25px;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  color: white;
+  border-radius: 90px;
+  transition-duration: 1s;
+}
+
+.b1-3:hover {
+  background-color: white;
+  color: black;
 }
