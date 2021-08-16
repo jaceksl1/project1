@@ -58,7 +58,7 @@ body {
 .section1 {
   height: 100vh;
   position: relative;
-  background-image: url(/pictures/jakub-rozalski-usonia-harvest-042021small.jpg);
+  background-image: url(pictures/jakub-rozalski-usonia-harvest-042021small.jpg);
   background-size: cover;
   display: flex;
   background-position: center;
